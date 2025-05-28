@@ -1,1 +1,0 @@
-"# piastrellina_bot" 
