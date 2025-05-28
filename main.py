@@ -1,7 +1,10 @@
 import os
 import random
+from keep_alive import keep_alive
 from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
+
+keep_alive()
 
 # Define keyword variants and responses
 keyword_responses = {
